@@ -40,8 +40,10 @@ htmlcov/
 # Output files
 *_diff.xlsx
 *_result.xlsx
+*_output.xlsx
 output/
 
 # Sample and test files
 sample*.xlsx
 test*.xlsx
+verification*.xlsx
