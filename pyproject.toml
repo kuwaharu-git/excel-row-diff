@@ -1,0 +1,16 @@
+[project]
+name = "excel-row-diff"
+version = "0.1.0"
+description = "Tool to compare two Excel files and extract row differences"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openpyxl>=3.1.0",
+]
+
+[project.scripts]
+excel-row-diff = "excel_row_diff:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
